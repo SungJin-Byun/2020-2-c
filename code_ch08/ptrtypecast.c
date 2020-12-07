@@ -4,9 +4,9 @@
 int main(void)
 {
 	int value = 0x61626364;
-	int *pi = &value;
-	char *pc = (char *)&value; //char *pc = &value;
-	
+	int* pi = &value;
+	char* pc = (char*)&value; //char *pc = &value;
+
 	printf("변수명   저장값      주소값\n");
 	printf("----------------------------\n");
 	printf(" value   %0#x  %p\n", value, pi); //정수 출력

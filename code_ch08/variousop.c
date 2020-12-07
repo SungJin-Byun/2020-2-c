@@ -4,8 +4,8 @@
 int main(void)
 {
 	int i;
-	int *pi = &i;		//포인터 선언
-	int **dpi = &pi;    //이중포인터 선언
+	int* pi = &i;		//포인터 선언
+	int** dpi = &pi;    //이중포인터 선언
 
 	*pi = 5;
 	*pi += 1; //*pi = *pi + 1와 같음
@@ -16,9 +16,9 @@ int main(void)
 	printf("%d\n", *pi);
 
 	*pi = 10;
-	printf("%d\n", ++*pi); //++*pi과 ++(*pi)는 같음
-	printf("%d\n", ++**dpi); //++**dpi과 ++(**dpi)는 같음
+	printf("%d\n", ++ * pi); //++*pi과 ++(*pi)는 같음
+	printf("%d\n", ++ * *dpi); //++**dpi과 ++(**dpi)는 같음
 	printf("%d\n", i);
-	
+
 	return 0;
 }

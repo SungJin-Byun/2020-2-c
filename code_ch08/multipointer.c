@@ -4,8 +4,8 @@
 int main(void)
 {
 	int i = 20;
-	int *pi = &i;		//포인터 선언
-	int **dpi = &pi;	//이중 포인터 선언
+	int* pi = &i;		//포인터 선언
+	int** dpi = &pi;	//이중 포인터 선언
 
 	printf("%p %p %p\n", &i, pi, *dpi);
 

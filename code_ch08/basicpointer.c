@@ -4,11 +4,11 @@
 int main(void)
 {
 	char c = '@';
-	char *pc = &c;
+	char* pc = &c;
 	int m = 100;
-	int *pm = &m;
+	int* pm = &m;
 	double x = 5.83;
-	double *px = &x;
+	double* px = &x;
 
 	printf("변수명   주소값    저장값\n");
 	printf("---------------------------\n");

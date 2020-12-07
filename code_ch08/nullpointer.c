@@ -3,7 +3,7 @@
 
 int main(void)
 {
-	int *ptr1, *ptr2, data = 10;
+	int* ptr1, * ptr2, data = 10;
 	ptr1 = NULL;
 
 	printf("%p\n", ptr1);

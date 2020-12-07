@@ -5,8 +5,8 @@ int main(void)
 {
 	int data = 100;
 	char ch = 'A';
-	int *ptrint = &data;
-	char *ptrchar = &ch;
+	int* ptrint = &data;
+	char* ptrchar = &ch;
 	printf("간접참조 출력: %d %c\n", *ptrint, *ptrchar);
 
 	*ptrint = 200; //변수 data를 *ptrint로 간접참조하여 그 내용을 수정

@@ -4,7 +4,7 @@
 int main(void)
 {
 	int data = 100;
-	int *ptrint;
+	int* ptrint;
 	ptrint = &data;
 
 	printf("변수명  주소값       저장값\n");

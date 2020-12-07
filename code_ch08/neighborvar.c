@@ -11,10 +11,10 @@ int main(void)
 	printf("   b     %d     %p\n", b, &b);
 	printf("   a     %d     %p\n", a, &a);
 
-	int *p = &c;
+	int* p = &c;
 	printf("   c     %d     %p\n", *p, p);
-	printf("   b     %d     %p\n", *(p + 3), p+3);
-	printf("   a     %d     %p\n", *(p + 6), p+6);
+	printf("   b     %d     %p\n", *(p + 3), p + 3);
+	printf("   a     %d     %p\n", *(p + 6), p + 6);
 
 	return 0;
 }
